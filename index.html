@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#07553f">
+  <meta name="description" content="Best Medical Center — consultations, analyses médicales et téléconsultation, avec un parcours de soins simple et humain.">
+  <title>Best Medical Center — Votre santé, simplement</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%2307553f'/%3E%3Cpath d='M17 16h18c9 0 14 4 14 11 0 4-2 7-6 9 5 2 7 5 7 10 0 8-6 12-16 12H17V16zm11 9v8h7c3 0 5-1 5-4s-2-4-5-4h-7zm0 16v9h8c3 0 5-2 5-5s-2-4-5-4h-8z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <div class="notice-bar"><span class="pulse-dot"></span> Urgences & soins sans rendez-vous <strong>7j/7</strong><button class="notice-link" data-action="appointment">Prendre rendez-vous <span>↗</span></button></div>
+
+  <header class="site-header" id="header">
+    <a class="brand" href="#accueil" aria-label="Best Medical Center, accueil">
+      <span class="brand-logo"><img src="logo.png" alt="Logo Best Medical Center" width="56" height="56"></span>
+      <span><strong>BEST</strong><small>MEDICAL CENTER</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Navigation principale">
+      <a href="centre.html">Le centre</a><a href="services.html">Soins</a><a href="laboratoire.html">Laboratoire</a><a href="medecins.html">Médecins</a><a href="partenaires.html">Partenaires</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-ghost desktop-only" href="patient.html"><span class="icon-user"></span>Espace patient</a>
+      <a class="btn btn-primary" href="teleconsultation.html"><span class="video-icon"></span>Téléconsulter</a>
+      <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false"><i></i><i></i></button>
+    </div>
+    <div class="mobile-menu" aria-hidden="true">
+      <a href="centre.html">Le centre</a><a href="services.html">Soins</a><a href="laboratoire.html">Laboratoire</a><a href="medecins.html">Médecins</a><a href="partenaires.html">Partenaires</a>
+      <a class="btn btn-ghost" href="patient.html">Espace patient</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="accueil">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span></span> Un centre médical proche de vous</div>
+        <h1>Des soins qui commencent par <em>vous écouter.</em></h1>
+        <p class="hero-lede">Consultation, suivi, analyses et téléconsultation dans un même parcours — plus clair, plus humain, plus rapide.</p>
+        <div class="hero-actions">
+          <button class="btn btn-accent btn-large" data-action="appointment">Prendre rendez-vous <span>↗</span></button>
+          <button class="text-link" data-action="teleconsult"><span class="play">▶</span> Consulter en ligne</button>
+        </div>
+        <div class="trust-row">
+          <div class="avatars"><span>AM</span><span>FB</span><span>MD</span></div>
+          <p><strong>Une équipe pluridisciplinaire</strong><br><span>Coordonnée autour de votre santé</span></p>
+        </div>
+      </div>
+      <div class="hero-visual reveal delay-1">
+        <div class="hero-photo-wrap">
+          <img src="equipe-medicale.jpg" alt="L’équipe médicale de Best Medical Center" width="810" height="1080">
+          <div class="photo-scrim"></div>
+          <div class="hero-caption"><span class="caption-mark">B</span><p><strong>Votre santé.<br>Notre priorité.</strong><small>Une prise en charge attentive, à chaque étape.</small></p></div>
+        </div>
+        <div class="availability-card floating-card">
+          <span class="status-icon">✓</span><div><small>Prochain créneau</small><strong>Aujourd’hui · 16:30</strong></div><button data-action="appointment" aria-label="Réserver le prochain créneau">→</button>
+        </div>
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+      </div>
+      <div class="scroll-cue"><span></span>Découvrir le centre</div>
+    </section>
+
+    <section class="quick-access" aria-label="Accès rapides">
+      <button data-action="appointment"><span class="qa-icon">＋</span><span><small>Je veux</small><strong>Prendre rendez-vous</strong></span><b>→</b></button>
+      <button data-action="teleconsult"><span class="qa-icon">⌁</span><span><small>Je veux</small><strong>Téléconsulter</strong></span><b>→</b></button>
+      <button data-action="dashboard"><span class="qa-icon">▤</span><span><small>Je veux</small><strong>Voir mes résultats</strong></span><b>→</b></button>
+    </section>
+
+    <section class="care-section section" id="expertises">
+      <div class="section-heading reveal">
+        <div><span class="section-index">01</span><p class="kicker">Nos expertises</p></div>
+        <h2>Tout ce qu’il faut<br>pour prendre soin de vous.</h2>
+        <p>Un parcours coordonné, des professionnels disponibles et des services pensés pour réduire l’attente.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card service-featured reveal">
+          <div class="service-top"><span>01</span><i>↗</i></div><div class="service-icon">✚</div>
+          <h3>Médecine générale</h3><p>Prévention, diagnostic et suivi personnalisé pour toute la famille.</p><button data-action="appointment">Consulter un médecin <span>→</span></button>
+        </article>
+        <article class="service-card reveal delay-1"><div class="service-top"><span>02</span><i>↗</i></div><div class="service-icon">◉</div><h3>Analyses médicales</h3><p>Des prélèvements sur place et des résultats accessibles dans votre espace patient.</p><button data-action="dashboard">Voir le service <span>→</span></button></article>
+        <article class="service-card reveal delay-2"><div class="service-top"><span>03</span><i>↗</i></div><div class="service-icon">♡</div><h3>Suivi & prévention</h3><p>Bilans de santé, dépistage et accompagnement à chaque étape de la vie.</p><button data-action="appointment">Planifier un bilan <span>→</span></button></article>
+        <article class="service-card reveal delay-3"><div class="service-top"><span>04</span><i>↗</i></div><div class="service-icon">⌁</div><h3>Téléconsultation</h3><p>Échangez en vidéo avec un praticien, en toute simplicité et confidentialité.</p><button data-action="teleconsult">Démarrer en ligne <span>→</span></button></article>
+      </div>
+    </section>
+
+    <section class="tele-section section" id="teleconsultation">
+      <div class="tele-visual reveal">
+        <div class="tele-photo"><img src="accueil-soignante.jpg" alt="Professionnelle de santé de Best Medical Center" loading="lazy"><span class="secure-pill">● Connexion sécurisée</span></div>
+        <div class="call-ui">
+          <div><span></span><b>Dr. A. Barry</b><small>Médecine générale</small></div>
+          <p class="call-time">12:08</p>
+          <div class="call-actions"><i>⌁</i><i>◉</i><i class="hangup">×</i></div>
+        </div>
+      </div>
+      <div class="tele-copy reveal delay-1">
+        <span class="section-index">02</span><p class="kicker">La santé, où que vous soyez</p>
+        <h2>Votre médecin<br>à portée d’écran.</h2>
+        <p>Une consultation vidéo fluide, un parcours guidé et vos documents au même endroit. Depuis votre téléphone ou votre ordinateur.</p>
+        <ol class="steps">
+          <li><span>1</span><div><strong>Choisissez votre créneau</strong><small>Sélectionnez le motif et l’horaire qui vous conviennent.</small></div></li>
+          <li><span>2</span><div><strong>Préparez votre consultation</strong><small>Test audio-vidéo et ajout de documents en quelques secondes.</small></div></li>
+          <li><span>3</span><div><strong>Rejoignez votre médecin</strong><small>Accédez à une salle privée depuis votre espace patient.</small></div></li>
+        </ol>
+        <button class="btn btn-accent btn-large" data-action="teleconsult">Essayer la téléconsultation <span>↗</span></button>
+      </div>
+    </section>
+
+    <section class="experience section" id="parcours">
+      <div class="experience-copy reveal">
+        <span class="section-index light">03</span><p class="kicker light">L’expérience Best Medical Center</p>
+        <h2>Moins d’attente.<br>Plus d’attention.</h2>
+        <p>Chaque détail est pensé pour que vous sachiez quoi faire, où aller et ce qui vient ensuite.</p>
+        <div class="stats"><div><strong data-count="7">0</strong><span>jours sur 7</span></div><div><strong data-count="4">0</strong><span>étapes simplifiées</span></div><div><strong data-count="1">0</strong><span>espace patient</span></div></div>
+      </div>
+      <div class="journey-card reveal delay-1">
+        <div class="journey-head"><span>Votre parcours</span><small>Aujourd’hui</small></div>
+        <div class="journey-item done"><i>✓</i><div><small>09:45</small><strong>Accueil & orientation</strong><p>Votre dossier est prêt</p></div></div>
+        <div class="journey-line"></div>
+        <div class="journey-item current"><i>2</i><div><small>10:00</small><strong>Consultation</strong><p>Cabinet 03 · Dr. A. Barry</p></div><b>En cours</b></div>
+        <div class="journey-line muted"></div>
+        <div class="journey-item"><i>3</i><div><small>10:30</small><strong>Examens complémentaires</strong><p>Selon prescription</p></div></div>
+        <div class="journey-line muted"></div>
+        <div class="journey-item"><i>4</i><div><small>Après la visite</small><strong>Suivi dans votre espace</strong><p>Résultats, ordonnance et messagerie</p></div></div>
+      </div>
+    </section>
+
+    <section class="team-section section" id="equipe">
+      <div class="team-image reveal"><img src="accompagnement-patiente.jpg" alt="Accompagnement d’une patiente par l’équipe soignante" loading="lazy"><div class="quote-card"><span>“</span><p>Vous expliquer, vous rassurer et avancer avec vous.</p></div></div>
+      <div class="team-copy reveal delay-1"><span class="section-index">04</span><p class="kicker">Une équipe à vos côtés</p><h2>La compétence,<br>avec l’humain en plus.</h2><p>Des professionnels mobilisés autour d’un même objectif : vous proposer une prise en charge claire, coordonnée et respectueuse.</p><button class="text-link dark" data-action="appointment">Rencontrer notre équipe <span>→</span></button></div>
+    </section>
+
+    <section class="cta-section section" id="contact">
+      <div class="cta-orb"></div>
+      <div class="cta-content reveal"><p class="kicker light">Un premier pas suffit</p><h2>Besoin de consulter ?</h2><p>Choisissez le parcours qui vous convient. Nous nous occupons de la suite.</p><div><button class="btn btn-accent btn-large" data-action="appointment">Prendre rendez-vous <span>↗</span></button><button class="btn btn-outline-light btn-large" data-action="teleconsult"><span class="video-icon"></span>Téléconsulter</button></div></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-main"><a class="brand footer-brand" href="#accueil"><span class="brand-logo"><img src="logo.png" alt="" width="56" height="56"></span><span><strong>BEST</strong><small>MEDICAL CENTER</small></span></a><p>Votre santé mérite un parcours simple, humain et coordonné.</p><div class="footer-links"><div><strong>Navigation</strong><a href="#expertises">Nos soins</a><a href="#equipe">Notre équipe</a><a href="#parcours">Votre parcours</a></div><div><strong>Patients</strong><button data-action="appointment">Rendez-vous</button><button data-action="teleconsult">Téléconsultation</button><button data-action="dashboard">Espace patient</button></div><div><strong>Contact</strong><a href="mailto:contact@bestmedicalcenter.com">contact@bestmedicalcenter.com</a><span>Lun–Dim · 7j/7</span></div></div></div>
+    <div class="footer-bottom"><span>© 2026 Best Medical Center</span><span>Confidentialité · Mentions légales</span><span>Site de démonstration</span></div>
+  </footer>
+
+  <div class="modal" id="appointmentModal" role="dialog" aria-modal="true" aria-labelledby="appointmentTitle" hidden>
+    <div class="modal-backdrop" data-close></div><div class="modal-panel appointment-panel"><button class="modal-close" data-close aria-label="Fermer">×</button><div class="modal-progress"><span class="active"></span><span></span><span></span></div>
+      <div class="booking-step active" data-step="1"><p class="kicker">Prendre rendez-vous</p><h2 id="appointmentTitle">Quel soin recherchez-vous ?</h2><p class="muted">Choisissez un motif pour voir les disponibilités.</p><div class="choice-grid"><button class="choice" data-booking="Médecine générale"><i>✚</i><span><strong>Médecine générale</strong><small>Consultation ou suivi</small></span><b>→</b></button><button class="choice" data-booking="Bilan de santé"><i>♡</i><span><strong>Bilan de santé</strong><small>Prévention personnalisée</small></span><b>→</b></button><button class="choice" data-booking="Analyses médicales"><i>◉</i><span><strong>Analyses médicales</strong><small>Prélèvement au centre</small></span><b>→</b></button><button class="choice" data-booking="Téléconsultation"><i>⌁</i><span><strong>Téléconsultation</strong><small>Consultation vidéo</small></span><b>→</b></button></div></div>
+      <div class="booking-step" data-step="2"><button class="back-step">← Retour</button><p class="kicker">Votre créneau</p><h2>Quand êtes-vous disponible ?</h2><div class="date-row"><button class="date active"><small>Aujourd’hui</small><b>28</b><span>Sept.</span></button><button class="date"><small>Demain</small><b>29</b><span>Sept.</span></button><button class="date"><small>Mardi</small><b>30</b><span>Sept.</span></button><button class="date"><small>Mercredi</small><b>01</b><span>Oct.</span></button></div><h3>Créneaux disponibles</h3><div class="time-grid"><button>09:30</button><button>10:15</button><button>11:45</button><button>14:00</button><button>15:30</button><button>16:30</button></div><button class="btn btn-primary btn-full confirm-time" disabled>Continuer</button></div>
+      <div class="booking-step" data-step="3"><div class="success-mark">✓</div><p class="kicker">Rendez-vous réservé</p><h2>C’est noté !</h2><p class="muted booking-summary"></p><div class="confirmation-card"><span>Un rappel sera envoyé avant votre rendez-vous.</span><b>✓</b></div><button class="btn btn-primary btn-full" data-close>Terminer</button></div>
+    </div>
+  </div>
+
+  <div class="modal" id="dashboardModal" role="dialog" aria-modal="true" aria-labelledby="dashboardTitle" hidden>
+    <div class="dashboard-shell">
+      <aside class="dash-sidebar"><div class="dash-brand"><img src="logo.png" alt="Best Medical Center"><strong>BEST</strong></div><nav><button class="active" data-dash="overview">⌂ <span>Vue d’ensemble</span></button><button data-dash="appointments">▣ <span>Rendez-vous</span></button><button data-dash="documents">▤ <span>Mes documents</span><b>3</b></button><button data-dash="messages">◌ <span>Messagerie</span><b>1</b></button></nav><div class="dash-help"><span>?</span><strong>Besoin d’aide ?</strong><small>Notre équipe vous répond.</small><button>Nous contacter</button></div><button class="dash-logout" data-close>← Quitter la démo</button></aside>
+      <section class="dash-main"><header class="dash-header"><button class="dash-menu" aria-label="Menu">☰</button><div><p>Bonjour, Mariama</p><small>Dimanche 28 septembre 2026</small></div><div class="dash-user"><button aria-label="Notifications">♢<i></i></button><span>MK</span><div><strong>Mariama K.</strong><small>Patiente</small></div><button class="modal-close dash-close" data-close aria-label="Fermer">×</button></div></header>
+        <div class="dash-content" id="dashboardContent"><div class="dash-title"><div><p class="kicker">Mon espace santé</p><h2 id="dashboardTitle">Vue d’ensemble</h2></div><button class="btn btn-primary" data-action="appointment">＋ Nouveau rendez-vous</button></div>
+          <div class="dash-grid"><article class="next-card"><div class="card-heading"><span>Prochain rendez-vous</span><button>•••</button></div><div class="doctor-row"><div class="doctor-avatar">AB</div><div><h3>Dr. A. Barry</h3><p>Médecine générale</p></div><span class="tag-video">⌁ Vidéo</span></div><div class="appt-details"><div><small>Date</small><strong>Demain, 29 sept.</strong></div><div><small>Heure</small><strong>10:30 · 30 min</strong></div></div><button class="btn btn-accent btn-full" data-action="teleconsult">Rejoindre la consultation <span>→</span></button><small class="available-note"><i></i> La salle ouvre 10 minutes avant</small></article>
+            <article class="health-card"><div class="card-heading"><span>Mon suivi</span><button>Voir le détail</button></div><div class="health-score"><div><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="42"></circle><circle class="progress" cx="50" cy="50" r="42"></circle></svg><strong>82<small>%</small></strong></div><p><strong>Votre suivi est à jour</strong><small>Prochain contrôle conseillé dans 3 mois.</small></p></div><div class="mini-metrics"><div><span>♡</span><p><small>Tension</small><strong>12/8</strong></p></div><div><span>⌁</span><p><small>Dernier bilan</small><strong>18 sept.</strong></p></div></div></article>
+            <article class="activity-card"><div class="card-heading"><span>Activité récente</span><button>Tout voir</button></div><ul><li><i class="green">▤</i><div><strong>Résultats disponibles</strong><p>Bilan sanguin · 3 documents</p></div><small>Hier</small></li><li><i class="blue">✓</i><div><strong>Rendez-vous confirmé</strong><p>Dr. A. Barry · Téléconsultation</p></div><small>26 sept.</small></li><li><i class="orange">✚</i><div><strong>Ordonnance ajoutée</strong><p>Consultation générale</p></div><small>18 sept.</small></li></ul></article>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="modal" id="teleModal" role="dialog" aria-modal="true" aria-labelledby="teleTitle" hidden>
+    <div class="modal-backdrop" data-close></div><div class="modal-panel tele-panel"><button class="modal-close" data-close aria-label="Fermer">×</button>
+      <div class="preflight active" data-tele-step="preflight"><p class="kicker">Téléconsultation sécurisée</p><h2 id="teleTitle">Vérifions votre équipement.</h2><p class="muted">Cette démo simule la connexion. Aucun flux audio ou vidéo n’est enregistré.</p><div class="video-preview"><video autoplay muted playsinline></video><div class="camera-placeholder"><span>MK</span><p>Caméra désactivée</p></div><div class="preview-controls"><button data-device="mic" class="active" aria-label="Microphone">◉</button><button data-device="camera" aria-label="Caméra">▣</button></div></div><div class="device-checks"><div><span class="check good">✓</span><p><strong>Connexion internet</strong><small>Stable · excellente qualité</small></p></div><div><span class="check good">✓</span><p><strong>Microphone</strong><small>Prêt</small></p></div><div><span class="check pending">•</span><p><strong>Caméra</strong><small>Optionnelle</small></p></div></div><button class="btn btn-accent btn-full join-call">Rejoindre la salle d’attente <span>→</span></button><p class="privacy">🔒 Échange chiffré · Vos données restent confidentielles</p></div>
+      <div class="call-room" data-tele-step="room"><div class="call-stage"><div class="remote-video"><div class="doctor-placeholder"><span>AB</span><h3>Dr. A. Barry</h3><p>Connexion du médecin…</p></div><div class="connection-status"><i></i> Connecté · HD</div><div class="call-duration">00:00</div></div><div class="local-video"><span>MK</span><small>Vous</small></div></div><div class="room-bar"><div><strong>Téléconsultation</strong><small>Salle privée · Démo</small></div><div class="room-controls"><button class="active" data-device="mic">◉<span>Micro</span></button><button data-device="camera">▣<span>Caméra</span></button><button>▤<span>Documents</span></button><button>◌<span>Message</span></button><button class="end-call">×<span>Quitter</span></button></div><button class="room-info">ⓘ</button></div></div>
+      <div class="call-ended" data-tele-step="ended"><div class="success-mark">✓</div><p class="kicker">Téléconsultation terminée</p><h2>Merci, Mariama.</h2><p class="muted">Le compte rendu et l’ordonnance seront disponibles dans votre espace patient.</p><div class="rating"><span>Comment s’est passée la consultation ?</span><div><button>★</button><button>★</button><button>★</button><button>★</button><button>★</button></div></div><button class="btn btn-primary btn-full" data-close>Retour à l’accueil</button></div>
+    </div>
+  </div>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

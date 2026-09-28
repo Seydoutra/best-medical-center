@@ -1,0 +1,30 @@
+# Best Medical Center — refonte web
+
+Portail médical multipage, responsive et sans dépendances pour Best Medical Center.
+
+## Pages incluses
+
+- Accueil et prise de rendez-vous
+- Présentation du centre et de ses espaces
+- Catalogue des soins avec simulation de réservation
+- Laboratoire avec recherche d’analyses
+- Annuaire des médecins et parcours professionnels de démonstration
+- Partenaires et simulateur de couverture assurance
+- Espace patient interactif : agenda, documents, ordonnances et messagerie
+- Téléconsultation programmée ou urgente avec brief préalable
+
+## Lancer localement
+
+```bash
+python3 -m http.server 4173
+```
+
+Puis ouvrir `http://localhost:4173`.
+
+## Brancher l’API de téléconsultation
+
+Dans `pages.js`, renseigner `VIDEO_API.baseUrl` et fournir un `tokenProvider`. Le connecteur crée alors une salle distante via `POST /v1/teleconsultations`. Sans URL d’API, les deux parcours restent en mode démonstration. `app.js` conserve également le connecteur WebRTC de la page d’accueil.
+
+## Publication GitHub Pages
+
+Le projet ne nécessite aucune compilation. Dans les paramètres du dépôt, activer Pages depuis la branche `main` et le dossier racine.
