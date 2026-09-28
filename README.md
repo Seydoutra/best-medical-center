@@ -7,11 +7,13 @@ Portail médical multipage, responsive et sans dépendances pour Best Medical Ce
 - Accueil et prise de rendez-vous
 - Présentation du centre et de ses espaces
 - Catalogue des soins avec simulation de réservation
+- Fiches détaillées pour chaque service : indications, prestations, parcours, préparation et FAQ
 - Laboratoire avec recherche d’analyses
 - Annuaire des médecins et parcours professionnels de démonstration
 - Partenaires et simulateur de couverture assurance
 - Espace patient interactif : agenda, documents, ordonnances et messagerie
 - Téléconsultation programmée ou urgente avec brief préalable, calendrier de disponibilités, confirmation persistante et accès le jour J
+- Bibliothèque de conseils santé avec recherche, catégories et articles pédagogiques
 
 ## Lancer localement
 
