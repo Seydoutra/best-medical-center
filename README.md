@@ -11,7 +11,7 @@ Portail médical multipage, responsive et sans dépendances pour Best Medical Ce
 - Annuaire des médecins et parcours professionnels de démonstration
 - Partenaires et simulateur de couverture assurance
 - Espace patient interactif : agenda, documents, ordonnances et messagerie
-- Téléconsultation programmée ou urgente avec brief préalable
+- Téléconsultation programmée ou urgente avec brief préalable, calendrier de disponibilités, confirmation persistante et accès le jour J
 
 ## Lancer localement
 

@@ -58,3 +58,4 @@ function resetTeleconsultation(){clearInterval(callTimer);if(stream){stream.getT
 
 // Garde les interactions locales et légères; le backend peut écouter ces événements.
 document.dispatchEvent(new CustomEvent('bmc:ready',{detail:{teleconsultationMode:teleConnector.mode}}));
+const floatingSignal=document.createElement('a');floatingSignal.className='tele-signal';floatingSignal.href='teleconsultation.html';floatingSignal.setAttribute('aria-label','Médecin en ligne — ouvrir la téléconsultation');floatingSignal.innerHTML='<i>⌁</i><span><strong>Médecin en ligne</strong><small>Voir les créneaux</small></span><b>→</b>';document.body.append(floatingSignal);
